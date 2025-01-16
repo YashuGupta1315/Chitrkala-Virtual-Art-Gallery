@@ -1,0 +1,87 @@
+.homepage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    background: url('/public/assets/images/bg.jpg') no-repeat center  center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* animation: fadeIn 5s infinite alternate, zoomIn 10s infinite alternate;
+    transition: transform 1.5s ease-in-out;  */
+  }
+  .logo {
+    width: 150px; 
+    /* animation: fadeIn 3s ease;  */
+  
+  }
+  /* @keyframes zoomIn {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+   */
+  .content {
+    position: absolute; 
+    top: 21%; 
+    left: 52%;
+    transform: translate(-50%, 0); 
+    color: white;
+    text-align: center;
+    z-index: 10;
+    padding: 0 20px; 
+    border-radius: 10px; 
+  }
+  
+  h1 {
+    font-size: 2rem; /* Larger font size for the heading */
+    font-weight: bold;
+    margin:0;
+    color: rgb(0, 26, 110);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
+  }
+  
+  p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin:0;
+    color: rgb(0, 26, 110);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3); 
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #ff5722; 
+    color: white;
+    border: none;
+    border-radius: 30px; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0.8;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+.canvas-container {
+    background-color: #f0f0f5; 
+  }
+  
+  .navigation-button {
+    background-color: #50597b;
+  }
+  
+  .navigation-button:hover {
+    background-color: #3e4761;
+  }
+  
+  .instructions {
+    font-family: "Serif", serif;
+    font-style: italic;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+  }
+  
+  .full-screen-room {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  canvas {
+    display: block; 
+    width: 100vw;
+  height: 100vh;
+  }

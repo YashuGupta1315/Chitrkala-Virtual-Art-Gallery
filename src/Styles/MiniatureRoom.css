@@ -1,0 +1,32 @@
+.canvas-container {
+    background-color: #ffe4c4; /* A light tan to highlight miniature art */
+  }
+  
+  .navigation-button {
+    background-color: #8b5a2b;
+  }
+  
+  .navigation-button:hover {
+    background-color: #5a391c;
+  }
+  
+  .instructions {
+    font-family: "Sans-serif", serif;
+    letter-spacing: 1px;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+  }
+  
+  .full-screen-room {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  canvas {
+    display: block; /* Ensures no extra padding */
+    width: 100vw;
+  height: 100vh;
+  }
