@@ -10,7 +10,7 @@ const MiniatureRoom = () => {
     ceiling: "/assets/textures/celling.jpg",
   };
   const images = {
-    back: ["/assets/images/mini1.jpg", "/assets/images/mini6.jpg","/assets/images/mini2.jpg", "/assets/images/gopikapainting2.webp","/assets/images/mini3.jpg", "/assets/images/mini4.jpeg","/assets/images/mini5.jpg", "/assets/images/Modern2.jpg", "/assets/images/mini7.jpg",],
+    back: ["/assets/images/mini1.jpg", "/assets/images/mini6.jpg","/assets/images/mini2.jpg", "/assets/images/gopikapainting2.webp","/assets/images/mini3.jpg", "/assets/images/mini4.jpeg","/assets/images/mini5.jpg", "/assets/images/mini2.jpg", "/assets/images/mini7.jpg",],
    
   };
 
