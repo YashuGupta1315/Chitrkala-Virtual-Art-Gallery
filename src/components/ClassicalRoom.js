@@ -12,7 +12,7 @@ const ClassicalRoom = () => {
   };
 
   const images = {
-    back: ["/assets/images/classical1.jpg", "/assets/images/shankar-tandav.jpg","/assets/images/classical2.jpg","/assets/images/gopikapainting2.webp","/assets/images/classical3.jpg","/assets/images/classical4.jpeg","/assets/images/classical5.jpeg","/assets/images/Modern2.jpg", "/assets/images/classical6.webp",],
+    back: ["/assets/images/classical1.jpg", "/assets/images/shankar-tandav.jpg","/assets/images/classical2.jpg","/assets/images/gopikapainting2.webp","/assets/images/classical3.jpg","/assets/images/classical4.jpeg","/assets/images/classical5.jpeg","/assets/images/classical3.jpg", "/assets/images/classical6.webp",],
     
   };
 
